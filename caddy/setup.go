@@ -16,7 +16,7 @@ import (
 	// Import all backends, packaged with the caddy plugin
 	_ "github.com/tarent/loginsrv/htpasswd"
 	_ "github.com/tarent/loginsrv/httpupstream"
-	_ "github.com/gamalan/loginsrv/oauth2"
+	_ "github.com/tarent/loginsrv/oauth2"
 	_ "github.com/tarent/loginsrv/osiam"
 )
 
